@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Main {
   public static void main(String[] args) {
     int idade = 10;
@@ -53,5 +55,16 @@ public class Main {
      length -> tamnho do array
      */
     int[] meusNumeros = new int[4];
+
+    // ArrayList
+    ArrayList<String> nomes = new ArrayList<>();
+    nomes.add("Luiz");
+    nomes.add("Ricardo");
+    nomes.add("Mariana");
+
+    System.out.println(nomes.get(1));
+
+    nomes.remove(2);
+    nomes.remove("Ricardo");
   }
 }
