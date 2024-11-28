@@ -77,5 +77,17 @@ public class Main {
       System.out.println("Estou no While");
       contador++;
     }
+
+    // Castings (mudança de tipos)
+    double resultado = 0.0;
+    int resultadoInt = (int)resultado;
+
+    int meuInt = 10;
+    double meuDouble = (double)meuInt;
+
+    String meuString = "10";
+    int meuInt2 = Integer.parseInt(meuString);
+
+    String meuString2 = String.valueOf(meuInt2);
   }
 }
