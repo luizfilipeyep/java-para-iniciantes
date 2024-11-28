@@ -66,5 +66,16 @@ public class Main {
 
     nomes.remove(2);
     nomes.remove("Ricardo");
+
+    // Loops (for e while)
+    for (i = 0; i < nomes.size(); i++) {
+      System.out.println(nomes.get(i));
+    }
+
+    int contador = 0;
+    while (contador < 10) {
+      System.out.println("Estou no While");
+      contador++;
+    }
   }
 }
