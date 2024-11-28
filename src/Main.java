@@ -45,5 +45,13 @@ public class Main {
     } else {
       System.out.println("Falso");
     }
+
+    // Vetores
+    int[] colecaoDeInteiros = { 1, 2, 3, 4, 5 };
+    System.out.println(colecaoDeInteiros[4]);
+    /*
+     length -> tamnho do array
+     */
+    int[] meusNumeros = new int[4];
   }
 }
