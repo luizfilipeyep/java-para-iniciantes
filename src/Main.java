@@ -6,6 +6,7 @@ public class Main {
     var nomeVariavel = "Filipe";
 
     /*
+
     > Números inteiros
 
     byte -> 8 bits | -128 a 127
@@ -27,5 +28,22 @@ public class Main {
     boolean -> true ou false
 
     */
+
+    byte b = 100;
+    short s = 10000;
+    int i = 100000;
+    long l = 100000L;
+    float f = 10.5f;
+    double d = 20.5;
+    char c = 'A';
+    boolean bool = true;
+    String str = "Luiz";
+
+    // Condicionais
+    if (b > 99) {
+      System.out.println("Verdadeiro");
+    } else {
+      System.out.println("Falso");
+    }
   }
 }
