@@ -89,5 +89,27 @@ public class Main {
     int meuInt2 = Integer.parseInt(meuString);
 
     String meuString2 = String.valueOf(meuInt2);
+
+    // Classes, Objetos, Métodos Construtores
+    Carro meuCarro = new Carro("Fusca");
+    Carro meuCarro1 = new Carro("Sandero");
+    Carro meuCarro2 = new Carro("BMW");
+
+    meuCarro1.acelerar();
+  }
+}
+
+// Classes, Objetos, Métodos Construtores
+class Carro {
+  String modelo;
+
+  public Carro(String modelo) {
+    this.modelo = modelo;
+
+    System.out.println(this.modelo);
+  }
+
+  public void acelerar() {
+    System.out.println("Acelerando o carro " + this.modelo);
   }
 }
