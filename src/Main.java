@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 
+
 public class Main {
   public static void main(String[] args) {
     int idade = 10;
@@ -89,5 +90,16 @@ public class Main {
     int meuInt2 = Integer.parseInt(meuString);
 
     String meuString2 = String.valueOf(meuInt2);
+
+    // Classes, Objetos, Métodos Construtores
+    Carro meuCarro = new Carro("Fusca");
+    Carro meuCarro1 = new Carro("Sandero");
+    Carro meuCarro2 = new Carro("BMW");
+
+    meuCarro1.acelerar();
   }
 }
+
+
+
+// Modificadores de acesso - public, private, protected, default
