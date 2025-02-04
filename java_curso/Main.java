@@ -1,5 +1,11 @@
-import java.util.ArrayList;
+package java_curso;
+/*
+  public -> visível em todo lugar
+  private -> visivel na classe declarada
+  protected -> acessível somente no mesmo pacote
+*/
 
+import java.util.ArrayList;
 
 public class Main {
   public static void main(String[] args) {
@@ -99,7 +105,5 @@ public class Main {
     meuCarro1.acelerar();
   }
 }
-
-
 
 // Modificadores de acesso - public, private, protected, default

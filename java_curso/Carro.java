@@ -1,6 +1,12 @@
+package java_curso;
+
 // Classes, Objetos, Métodos Construtores
-class Carro {
+public class Carro {
   String modelo;
+
+  public static void main(String[] args) {
+    System.out.println("Teste");
+  }
 
   public Carro(String modelo) {
     this.modelo = modelo;
